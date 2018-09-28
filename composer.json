@@ -1,0 +1,16 @@
+{
+    "name": "chris/projetcomposer",
+    "authors": [
+        {
+            "name": "Christophe LESIEUR",
+            "email": "chrlesieur@free.fr"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "swiftmailer/swiftmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
